@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "main": "/src/index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_PATH=~/tmp/mode_modules react-scripts start",
+    "build": "NODE_PATH=~/tmp/mode_modules react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
